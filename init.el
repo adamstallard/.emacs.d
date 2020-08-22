@@ -17,6 +17,7 @@
 (setq echo-keystrokes .01)
 
 (setq column-number-mode t)
+(setq tab-width 2)
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
@@ -24,6 +25,7 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(inhibit-startup-screen t)
+ '(js-indent-level 2)
  '(package-selected-packages (quote (expand-region yaml-mode))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
