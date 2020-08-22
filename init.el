@@ -1,10 +1,10 @@
-;;; set initial size and positionn’t get used to: mouse pasting behaviour. In
-;;;(setq initial-frame-alist '((top . 0) (left . 25)))
+;; set initial size and position
+;; (setq initial-frame-alist '((top . 0) (left . 25)))
 (setq default-frame-alist
   '((width . 109) (height . 48)))
-;;; overwrite selected text ala windows
+;; overwrite selected text ala windows
 (delete-selection-mode t)
-;;; default to unix-style coding
+;; default to unix-style coding
 (prefer-coding-system 'utf-8-unix)
 ;; Middle-mouse pastes from clipboard
 ;; (global-set-key [mouse-2] 'mouse-yank-at-click)
