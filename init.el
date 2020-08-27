@@ -37,8 +37,10 @@
 (require 'package)
 (add-to-list 'package-archives '("melpa" . "https://melpa.org/packages/") t)
 (package-initialize)
+
 (require 'yaml-mode)
 (add-to-list 'auto-mode-alist '("\\.yml$" . yaml-mode))
+
 (require 'expand-region)
 (global-set-key (kbd "C-'") 'er/expand-region)
 (global-set-key (kbd "C-\"") 'er/contract-region)
